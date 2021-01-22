@@ -1,0 +1,27 @@
+{
+  "name": "beehamchoi/yii2-google1tap",
+  "description": "Google One Tap Extension",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "Google One Tap",
+    "Google Login"
+  ],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Andy Le",
+      "email": "ltanh1194@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-httpclient": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "beehamchoi\\google1tap\\": "src"
+    }
+  }
+}
